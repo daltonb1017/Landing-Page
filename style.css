@@ -91,11 +91,38 @@ a {
 
 .section2 {
     background-color:white;
+    padding:64px;
+}
+
+.info {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 32px
 }
 
 .square {
-    height: 100px;
-    width: 100px;
+    height: 125px;
+    width: 125px;
     border: #3882f6 solid;
     border-radius: 10px;
+}
+
+.sqtext {
+    font-size: 14px;
+    color:#1F2937;
+    text-align: center;
+}
+
+.card {
+    width: 125px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
 }
