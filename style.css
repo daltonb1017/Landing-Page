@@ -70,13 +70,13 @@ a {
 }
 
 .image-1 {
-    background-color: grey;
+    background-color: #7f8692;
     height: 180px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    color: #E5E7Eb;
+    color: #f9faf8;
 }
 
 .left {
@@ -112,7 +112,7 @@ a {
 }
 
 .sqtext {
-    font-size: 14px;
+    font-size: 18px;
     color:#1F2937;
     text-align: center;
 }
@@ -125,4 +125,32 @@ a {
     display: flex;
     justify-content: center;
     gap: 50px;
+}
+
+.section3 {
+    background-color: #e5e7eb;
+    padding: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 800px;
+}
+
+.person {
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
 }
